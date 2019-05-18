@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 namespace WebCoreProjekt.Models
 {
     public interface IOpinieRepository
-    {void 
+    {
+        void DodajOpinie(Opinie opinie);
     }
 }
